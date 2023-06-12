@@ -82,7 +82,9 @@ For the purpose of analysis and machine learning, categorical variables such as 
 affiliation, school type, IMD and HLE were encoded
 
 ## Some Visualizations
+Graph showing the relative influences on attainment measured by absolute natural logarithm of the p-value 
 
+![image](https://github.com/AdebayoDare/Assessing-the-influences-and-prediction-of-attainment-of-school-children-/assets/93272487/e4bd06d2-194d-417d-99a6-197b71269714)
 
 
 
@@ -99,6 +101,9 @@ stacked to train the dataset to check if the model performance will increase. Th
 gives the relative performance of the models with KNN performing best with approximately
 88%. To validate this high accuracy, other performance metrics such has precision, recall and
 f1-score were calculated, each with 85%.
+
+![image](https://github.com/AdebayoDare/Assessing-the-influences-and-prediction-of-attainment-of-school-children-/assets/93272487/888ad96d-2c36-4824-ae25-ee545be2c601)
+
 
 
 
