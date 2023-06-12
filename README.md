@@ -42,7 +42,7 @@ separate dataset.
 
 ## Data
 The data for this project was publicly sourced from the UK government and the East Riding of
-Yorkshire Council (ERYC) websites (DfE, 2021b; ERYC, 2021). The data contains SATs test
+Yorkshire Council (ERYC) websites (DfE, 2021; ERYC, 2021). The data contains SATs test
 attainment figures of Year 6 (KS2) students in ERYC. The pupils are assessed in three subjects;
 English Reading , Mathematics and English Writing (EL, 2021). This project used the datasets of
 2016-2017,2017-2018 and 2018-2019 academic sessions to monitor the progress or decline of
