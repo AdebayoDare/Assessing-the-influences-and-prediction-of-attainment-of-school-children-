@@ -2,9 +2,6 @@
 Analysis and prediction of attainment of school children in the United Kingdom
 
 
-# Prediction of United Kingdom Road Traffic Accident
-
-The project was aimed at advising UK government agencies about how to improve road safety and predict accidents. It also analyses the road traffic data for the year 2019.
 
 ## Table of Contents
 
@@ -19,23 +16,26 @@ The project was aimed at advising UK government agencies about how to improve ro
 
 ## Project Description
 
-The United Kingdom publishes the road traffic accidents twice a year. This is aimed at analysing this data. It also helps to investigate the probable causes of these accidents in order to guide the government to implement policies to prevent or reduce the impacts of these accidents on families and on the economy.
-
-Detailed analysis was done using python programming to draw actionable insights from the data. Some of the questions addressed in these projects are:
-
-(a)	What hours of the day or day of the week do accidents occur?
-
-(d)	Do daylight savings increase road traffic accidents in the week it starts and ends?
-
-(e)	Do sunrise and sunset have impact on road traffic accidents?
-
-(f)	Are some vehicles more prone to accidents?
-
-(g)	In what conditions do accidents occur the most?
-
-Machine learning models were built to give predictions about when and where accidents will occur, and the severity of the injuries. The government model performance was also compared with the model performance in this project to investigate similarity.
-
-It should be noted that this project did not consider car accidents alone, but included every other vehicle used on the UK roads such as pedal cycle, motorcycle, bus, horse, agricultural vehicle, tram, van, trucks, mobility scooters, etc.
+This project assessed the influence on Key Stage 2 (KS2) academic achievements of 125 schools in
+East Riding of Yorkshire Council (ERYC) using publicly available datasets from UK government
+and ERYC websites. Most studies do not take a holistic view of different factors that influence
+educational attainment. This research considered an inclusive and wide range of probable
+factors. The variables considered include; school type, previous academic performances,
+students financial and socio-economic status, financial capacity of school, teachers’ motivation
+and general attention given to teaching resources. The study employed Python data and
+statistical analysis through Pearson correlation and one-way Analysis of Variance (ANOVA). The
+following variables; socio-economic factors such as Healthy Life Expectancy (HLE), Indices of
+Multiple Deprivation (IMD), religious affiliation, school type, eligibility of free school meal and
+variables related to attention to different workers influenced KS2 progress scores or attainment
+with p-values less than the significant level (α =0.05). School type variable is seen to have the
+highest influence on school KS2 attainment with absolute natural logarithm of the p-value
+being 256.96. This is followed by HLE and IMD with 256.98 and 214.74 measures respectively.
+Five machine learning models with a stacked model were trained on the dataset with K-Nearest
+Model having the highest accuracy of 87.56%. These models were tested on a separate year
+2015 dataset. The Random Forest model gives the most accurate prediction of 75% of this
+separate dataset. In order to increase schools’ attainment a critical assessment of the variables
+employed is important. Thus, government should employ holistic models that predict schools’
+attainment before the KS2 pupils take their examination.
 
 
 
