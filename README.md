@@ -47,7 +47,7 @@ attainment figures of Year 6 (KS2) students in ERYC. The pupils are assessed in 
 English Reading , Mathematics and English Writing (EL, 2021). This project used the datasets of
 2016-2017,2017-2018 and 2018-2019 academic sessions to monitor the progress or decline of
 academic attainments influenced by other variables in the dataset.
-In 2016, the DfE introduced progress measure to rate schools (DfE, 2016). The school progress
+In 2016, the Department for Education (DfE) introduced progress measure to rate schools (DfE, 2016). The school progress
 score is an average of all the pupils’ progress scores. The school progress score indicates how
 well the pupils improve from their Year 2 (KS1) scores in mathematics, reading and writing
 when compared with other pupils who have the same KS1 results across England (DfE, 2019). A
