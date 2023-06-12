@@ -110,7 +110,7 @@ f1-score were calculated, each with 85%.
 
 ## Conclusion
 The findings in this study suggests that KS2 attainment is mostly dependent on school type.
-Moreover, socio-economic factors such as IMD, HLE and Free School Meal(FSM) largely influence attainment. It is
+Moreover, socio-economic factors such as IMD, HLE and Free School Meal (FSM) largely influence attainment. It is
 important for government to address these factors; the well-being of the communities where
 these schools are located can effectively improve with government intervention. Also,
 variables related to funding and attention given to workers in the primary schools are seen to
