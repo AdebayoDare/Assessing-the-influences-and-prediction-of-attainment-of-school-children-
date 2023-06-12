@@ -77,7 +77,7 @@ column regarding disadvantaged students and level of deprivation. In addition, s
 suppressed academic attainment/progress scores were removed, while other missing variables
 were replaced by the median values of the distribution.
 
-## Data Pre-processing/Encoding
+## Data Preprocessing
 For the purpose of analysis and machine learning, categorical variables such as school religious
 affiliation, school type, IMD and HLE were encoded
 
