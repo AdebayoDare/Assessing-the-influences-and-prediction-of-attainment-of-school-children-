@@ -9,7 +9,7 @@ Analysis and prediction of attainment of school children in the United Kingdom
 - [Data](#data)
 - [Data Cleaning](#data-cleaning)
 - [Data preprocessing](#data-preprocessing)
-- [Visualizing the influences on attainment](#visualization)
+- [Visualizing the influences on attainment](#Visualizing-the-influences-on-attainment)
 - [Models](#models)
 - [Conclusion](#conclusion)
 - [References](#references)
