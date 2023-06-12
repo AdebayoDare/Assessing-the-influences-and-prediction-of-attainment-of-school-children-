@@ -8,6 +8,7 @@ Analysis and prediction of attainment of school children in the United Kingdom
 - [Project Description](#project-description)
 - [Data](#data)
 - [Data Cleaning](#data-cleaning)
+- [Data preprocessing](#data-preprocessing)
 - [Some Visualizations](#some-visualizations)
 - [Models](#models)
 - [Recommendation](#recommendation)
@@ -41,18 +42,45 @@ separate dataset.
 
 
 ## Data
-
-The data used in this project was downloaded from the government website. A brief discription of the downloaded files are given below:
-
-Vehicle Data: This gives the information of each vehicle involved in road accident with a unique vehicle reference number.
-
-Accident Data: This gives the information of each accidents with a unique accident reference.
-
-Causality Data: This contains the details of causalities involved in the accidents.
+The data for this project was publicly sourced from the UK government and the East Riding of
+Yorkshire Council (ERYC) websites (DfE, 2021b; ERYC, 2021). The data contains SATs test
+attainment figures of Year 6 (KS2) students in ERYC. The pupils are assessed in three subjects;
+English Reading , Mathematics and English Writing (EL, 2021). This project used the datasets of
+2016-2017,2017-2018 and 2018-2019 academic sessions to monitor the progress or decline of
+academic attainments influenced by other variables in the dataset.
+In 2016, the DfE introduced progress measure to rate schools (DfE, 2016). The school progress
+score is an average of all the pupils’ progress scores. The school progress score indicates how
+well the pupils improve from their Year 2 (KS1) scores in mathematics, reading and writing
+when compared with other pupils who have the same KS1 results across England (DfE, 2019). A
+progress score of 0 indicates that a pupil has made an average amount of improvement by the
+end of KS2 similar to someone achieving the level that they achieved at the end of KS1. A
+positive score indicates their improvement is above average while a negative score implies it is
+below average.
+This project uses the progress scores of the subjects and average academic progress of each
+school in ERYC as the target variable, while other variables as seen in the appendix 1 are used
+as independent variables. These variables are categorised into school description variables,
+variables relating to KS1 performance, students financial and socio-economic status, finance of
+the school, teachers’ motivation, attention to other sections of schools apart from classrooms
+and attention given to teaching resources. Most of the independent variables were obtained
+from the UK government website (DfE, 2021b) and some missing information about HLE and
+IMD were obtained from ERYC council website (ERYC, 2021) by mapping the schools’
+postcodes with the HLE and IMD scores of the area
 
 ## Data Cleaning
 
-Minimal cleaning was done on the data. This is expected, since the data was extracted from the government website. However, some nan values were present in the data specifically at the locations column. The nan values were replaced with the mean values for the location as indicated by the police force area.
+Data cleaning was done on missing and suppressed values. Two datasets were extracted from
+the gov.uk site. These are the school general attainment (this also includes the data from ERYC
+indicating IMD and HLE) and funding datasets. These were merged on the unique reference
+number (URN) of the schools.
+Two columns related to percentage of disadvantaged students were removed because of the
+large number of suppressed values. However, the cleaned dataset retained a more concise
+column regarding disadvantaged students and level of deprivation. In addition, schools with
+suppressed academic attainment/progress scores were removed, while other missing variables
+were replaced by the median values of the distribution.
+
+## Data Pre-processing/Encoding
+For the purpose of analysis and machine learning, categorical variables such as school religious
+affiliation, school type, IMD and HLE were encoded
 
 ## Some Visualizations
 
