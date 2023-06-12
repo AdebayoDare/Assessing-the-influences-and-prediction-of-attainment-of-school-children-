@@ -11,8 +11,7 @@ Analysis and prediction of attainment of school children in the United Kingdom
 - [Data preprocessing](#data-preprocessing)
 - [Some Visualizations](#some-visualizations)
 - [Models](#models)
-- [Recommendation](#recommendation)
-- [Limitation](#limitation)
+- [Conclusion](#conclusion)
 - [References](#references)
 
 ## Project Description
