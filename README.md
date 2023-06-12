@@ -18,11 +18,12 @@ Analysis and prediction of attainment of school children in the United Kingdom
 
 This project assessed the influence on Key Stage 2 (KS2) academic achievements of 125 schools in
 East Riding of Yorkshire Council (ERYC) using publicly available datasets from UK government
-and ERYC websites. Most studies do not take a holistic view of different factors that influence
-educational attainment. This research considered an inclusive and wide range of probable
+and ERYC websites. 
+
+This project considered an inclusive and wide range of probable
 factors. The variables considered include; school type, previous academic performances,
 students financial and socio-economic status, financial capacity of school, teachers’ motivation
-and general attention given to teaching resources. The study employed Python data and
+and general attention given to teaching resources. The project employed Python data and
 statistical analysis through Pearson correlation and one-way Analysis of Variance (ANOVA). The
 following variables; socio-economic factors such as Healthy Life Expectancy (HLE), Indices of
 Multiple Deprivation (IMD), religious affiliation, school type, eligibility of free school meal and
@@ -30,12 +31,11 @@ variables related to attention to different workers influenced KS2 progress scor
 with p-values less than the significant level (α =0.05). School type variable is seen to have the
 highest influence on school KS2 attainment with absolute natural logarithm of the p-value
 being 256.96. This is followed by HLE and IMD with 256.98 and 214.74 measures respectively.
+
 Five machine learning models with a stacked model were trained on the dataset with K-Nearest
 Model having the highest accuracy of 87.56%. These models were tested on a separate year
 2015 dataset. The Random Forest model gives the most accurate prediction of 75% of this
-separate dataset. In order to increase schools’ attainment a critical assessment of the variables
-employed is important. Thus, government should employ holistic models that predict schools’
-attainment before the KS2 pupils take their examination.
+separate dataset. 
 
 
 
