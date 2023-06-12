@@ -9,7 +9,7 @@ Analysis and prediction of attainment of school children in the United Kingdom
 - [Data](#data)
 - [Data Cleaning](#data-cleaning)
 - [Data preprocessing](#data-preprocessing)
-- [Some Visualizations](#some-visualizations)
+- [Visualizing the influences on attainment](#visualization)
 - [Models](#models)
 - [Conclusion](#conclusion)
 - [References](#references)
@@ -81,10 +81,11 @@ were replaced by the median values of the distribution.
 For the purpose of analysis and machine learning, categorical variables such as school religious
 affiliation, school type, IMD and HLE were encoded
 
-## Some Visualizations
+## Visualizing the influences on attainment
 Graph showing the relative influences on attainment measured by absolute natural logarithm of the p-value 
 
-![image](https://github.com/AdebayoDare/Assessing-the-influences-and-prediction-of-attainment-of-school-children-/assets/93272487/e4bd06d2-194d-417d-99a6-197b71269714)
+![image](https://github.com/AdebayoDare/Assessing-the-influences-and-prediction-of-attainment-of-school-children-/assets/93272487/daa276c4-be12-4f9e-a6ee-8ae96ac1729f)
+
 
 
 
