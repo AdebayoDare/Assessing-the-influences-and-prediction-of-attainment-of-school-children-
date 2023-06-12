@@ -56,7 +56,7 @@ end of KS2 similar to someone achieving the level that they achieved at the end 
 positive score indicates their improvement is above average while a negative score implies it is
 below average.
 This project uses the progress scores of the subjects and average academic progress of each
-school in ERYC as the target variable, while other variables as seen in the appendix 1 are used
+school in ERYC as the target variable, while other variables are used
 as independent variables. These variables are categorised into school description variables,
 variables relating to KS1 performance, students financial and socio-economic status, finance of
 the school, teachers’ motivation, attention to other sections of schools apart from classrooms
